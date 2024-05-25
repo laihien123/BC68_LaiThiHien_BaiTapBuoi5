@@ -1,0 +1,84 @@
+.nav-pills .nav-link {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #e13370;
+    color: #fff;
+    border: 1px solid #e13370;
+    border-radius: 4px;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    background-color: #e9ecef;
+    color: #000;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h1 {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #dc3545;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c82333;
+}
+
+.mt-4,
+.mt-5 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bg-danger {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
